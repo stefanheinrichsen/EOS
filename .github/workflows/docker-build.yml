@@ -13,6 +13,8 @@ on:
     branches:
       - '**'
   workflow_dispatch:
+  schedule:
+      - cron: '0 * * * *'
 
 env:
   DOCKERHUB_REPO: silson/eos
