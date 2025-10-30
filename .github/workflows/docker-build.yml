@@ -15,8 +15,8 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKERHUB_REPO: akkudoktor/eos
-  GHCR_REPO: ghcr.io/akkudoktor-eos/eos
+  DOCKERHUB_REPO: silson/eos
+  GHCR_REPO: ghcr.io/stefanheinrichsen/eos
   EOS_LICENSE: Apache-2.0
 
 # From https://docs.docker.com/build/ci/github-actions/multi-platform/
